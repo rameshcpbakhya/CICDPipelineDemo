@@ -18,8 +18,8 @@ public class ShareTestCase {
 		
 		List<ShareVO> listOfShare=obj.getAllShares();
 		System.out.println("test executed");
-	assertNotNull(listOfShare);
-		
+	//assertNotNull(listOfShare);
+		assert(faile);
 	}
 	
 	
