@@ -1,5 +1,6 @@
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertNotNull;
+import static.org.junit.Assert.fail;
 
 import java.util.List;
 
@@ -19,7 +20,7 @@ public class ShareTestCase {
 		List<ShareVO> listOfShare=obj.getAllShares();
 		System.out.println("test executed");
 	//assertNotNull(listOfShare);
-		assert(faile);
+		fail("failed");
 	}
 	
 	
